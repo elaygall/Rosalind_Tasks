@@ -8,5 +8,5 @@ for i in s:
         dict[i] = dict[i] + 1
 
 for k in sorted(dict.keys()):
-    print (dict[k], end=' ')
+    print(dict[k], end=' ')
     

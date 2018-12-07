@@ -9,3 +9,4 @@ for i in s:
 
 for k in sorted(dict.keys()):
     print (dict[k], end=' ')
+    

@@ -1,11 +1,11 @@
 data = open('rosalind_dna.txt')
 s = data.readline()
 
-dict = {'A': 0, 'T': 0, 'G': 0, 'C': 0}
+NucBase = {'A': 0, 'T': 0, 'G': 0, 'C': 0}
 
 for i in s:
-    if i in dict:
-        dict[i] = dict[i] + 1
+    if i in NucBase:
+        NucBase[i] = NucBase[i] + 1
 
-for k in sorted(dict.keys()):
-    print(dict[k], end=' ')
+for k in sorted(NucBase.keys()):
+    print(NucBase[k], end=' ')

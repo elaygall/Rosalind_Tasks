@@ -1,3 +1,4 @@
+
 dict = {'A': 0, 'T': 0, 'G': 0, 'C': 0}
 
 data = open('rosalind_dna.txt')
